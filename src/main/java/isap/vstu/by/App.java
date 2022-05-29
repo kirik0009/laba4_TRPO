@@ -1,11 +1,26 @@
 package isap.vstu.by;
 
-import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
-@SpringBootApplication
 public class App {
+
+    static final Logger rootLogger = LogManager.getRootLogger();
+
     public static void main(String[] args) {
-        SpringApplication.run(App.class, args);
+
+        rootLogger.info("info message");
+
+        // debug
+        if (rootLogger.isDebugEnabled()) {
+            rootLogger.debug("In debug message");
+        }
+        try {
+            throw new NullPointerException("Null!!!");
+        } catch (NullPointerException ex) {
+            rootLogger.error("error message: " + ex.getMessage());
+            rootLogger.fatal("fatal error message: " + ex.getMessage());
+        }
+
     }
 }
