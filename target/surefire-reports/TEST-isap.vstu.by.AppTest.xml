@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="isap.vstu.by.AppTest" time="0.108" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="isap.vstu.by.AppTest" time="0.182" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="18"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="RU"/>
     <property name="sun.boot.library.path" value="D:\jdk-18.0.1.1\bin"/>
-    <property name="sun.java.command" value="C:\Users\7272~1\AppData\Local\Temp\surefire17490099763140328544\surefirebooter16358470827987916781.jar C:\Users\Админ\AppData\Local\Temp\surefire17490099763140328544 2022-05-29T19-49-37_535-jvmRun1 surefire13448569127867049647tmp surefire_01100129733281629383tmp"/>
+    <property name="sun.java.command" value="C:\Users\7272~1\AppData\Local\Temp\surefire8037830296828977079\surefirebooter7254989347482483555.jar C:\Users\Админ\AppData\Local\Temp\surefire8037830296828977079 2022-05-29T20-28-04_177-jvmRun1 surefire17289066663190726443tmp surefire_01237686777888472129tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\Админ\.vscode\trpo-maven-profile-log\target\test-classes;C:\Users\Админ\.vscode\trpo-maven-profile-log\target\classes;C:\Users\Админ\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\Админ\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Админ\.m2\repository\org\apache\logging\log4j\log4j-api\2.17.2\log4j-api-2.17.2.jar;C:\Users\Админ\.m2\repository\org\apache\logging\log4j\log4j-core\2.17.2\log4j-core-2.17.2.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\7272~1\AppData\Local\Temp\surefire17490099763140328544\surefirebooter16358470827987916781.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\7272~1\AppData\Local\Temp\surefire8037830296828977079\surefirebooter7254989347482483555.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="18.0.1.1+2-6"/>
@@ -56,5 +56,5 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="62.0"/>
   </properties>
-  <testcase name="shouldAnswerWithTrue" classname="isap.vstu.by.AppTest" time="0.001"/>
+  <testcase name="shouldAnswerWithTrue" classname="isap.vstu.by.AppTest" time="0"/>
 </testsuite>
